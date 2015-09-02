@@ -1,0 +1,63 @@
+<acceptance-test-run title="Test settings net" name="TestSettingsNet" steps="9" successful="4" failures="0" errors="1" skipped="4" ignored="0" pending="0" annotated-result="ERROR" result="ERROR" duration="24908" timestamp="2015-08-15T13:10:01.378+03:00">
+  <user-story id="utils.Application.TestAuth.Server" name="Server" path="utils.Application.TestAuth">
+    <feature id="utils.Application.TestAuth" name="Test auth"/>
+  </user-story>
+  <tags>
+    <tag name="Test auth" type="feature"/>
+    <tag name="Server" type="story"/>
+    <tag name="Settings Net" type="tag"/>
+  </tags>
+  <test-step result="SUCCESS" duration="10083">
+    <screenshots>
+      <screenshot image="27750c91030a6a25cd0a297dd896ec22_NONE.png"/>
+    </screenshots>
+    <description>Start browser</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="2938">
+    <screenshots>
+      <screenshot image="e2dd598577f4502efbc84e8ddc8a4df0_NONE.png"/>
+      <screenshot image="016f6c09e4dad0a60540daefeb73a479_NONE.png"/>
+    </screenshots>
+    <description>Клик на ссылку - &lt;strong&gt;Настройки&lt;/strong&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="3217">
+    <screenshots>
+      <screenshot image="78af5e5d2e7fec77fd1a045302bac7c4_NONE.png"/>
+    </screenshots>
+    <description>Клик на ссылку - &lt;strong&gt;Настройки сети&lt;/strong&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="726">
+    <screenshots>
+      <screenshot image="dc6e26c8fdab44073f8dba5e347895bd_NONE.png"/>
+    </screenshots>
+    <description>Клик - &apos;Использовать все IP адреса&apos;</description>
+  </test-step>
+  <test-step result="ERROR" duration="5941">
+    <screenshots>
+      <screenshot image="13c9bf9c18f4be87c101f41e5de12ae6_NONE.png"/>
+      <screenshot image="49c6171178a3ad80454a4992d7f3b84b_NONE.png"/>
+    </screenshots>
+    <description>Клик - &apos;Добавить Ip адрес&apos; </description>
+    <error>Expected enabled element was not enabled
+Build info: version: &apos;2.47.0&apos;, revision: &apos;0e4837e94b1fad0db93e88cd972ed3e235a22892&apos;, time: &apos;2015-07-29 15:58:41&apos;
+System info: host: &apos;sereda&apos;, ip: &apos;192.168.61.91&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: driver.version: unknown</error>
+    <exception>org.openqa.selenium.ElementNotVisibleException:Expected enabled element was not enabled
+Build info: version: &apos;2.47.0&apos;, revision: &apos;0e4837e94b1fad0db93e88cd972ed3e235a22892&apos;, time: &apos;2015-07-29 15:58:41&apos;
+System info: host: &apos;sereda&apos;, ip: &apos;192.168.61.91&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: driver.version: unknown&#xd;
+[page.SttingsNet.SettingsNetPage.setAddIpNet(SettingsNetPage.java:66), steps.SettingsNetSteps.SettingsNetSteps.addIpNet(SettingsNetSteps.java:36), tests.TestAuth.TestSettingsNet(TestAuth.java:139)]</exception>
+  </test-step>
+  <test-step result="SKIPPED" duration="11">
+    <description>Клик - &apos;Сброс Ip адрес&apos; </description>
+  </test-step>
+  <test-step result="SKIPPED" duration="11">
+    <description>Клик - &apos;Использовать все IP адреса&apos;</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="11">
+    <description>Клик - &apos;Применить Ip адрес&apos; </description>
+  </test-step>
+  <test-step result="SKIPPED" duration="15">
+    <description>Применить</description>
+  </test-step>
+</acceptance-test-run>

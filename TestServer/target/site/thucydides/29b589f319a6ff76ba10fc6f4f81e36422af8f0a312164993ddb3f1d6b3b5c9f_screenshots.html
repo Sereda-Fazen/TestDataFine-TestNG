@@ -1,0 +1,156 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Home</title>
+    <link rel="shortcut icon" href="favicon.ico" >
+    <link href="css/core.css" rel="stylesheet" type="text/css"/>
+    <style type="text/css">
+	#slider {
+	    position:relative;
+	    width:1000px; /* Change this to your images width */
+	    height:800px; /* Change this to your images height */
+	    background:url(images/loading.gif) no-repeat 50% 50%;
+	}
+	#slider img {
+	    position:absolute;
+	    top:0px;
+	    left:0px;
+	    display:none;
+	}
+	#slider a {
+	    border:0;
+	    display:block;
+	}
+
+    </style>
+
+	<!-- CSS Files -->
+    <link href="slides/js/global.css" rel="stylesheet" type="text/css"/>
+
+    <script src="scripts/jquery.js"></script>
+
+	<link rel="stylesheet" href="nivo-slider/nivo-slider.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="nivo-slider/themes/default/default.css" type="text/css" media="screen" />
+
+	<script src="nivo-slider/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+	<script type="text/javascript">
+
+    function getUrlVars() {
+        var vars = {};
+        var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+            vars[key] = value;
+        });
+        return vars;
+    }
+
+    var screenshotIndex = getUrlVars()["screenshot"];
+
+	$(window).load(function() {
+	    $('#slider').nivoSlider({
+            startSlide:screenshotIndex,
+            effect:'fade',
+			animSpeed:200,
+			directionNavHide:false,
+			manualAdvance:true,
+			keyboardNav:true
+		});
+	});
+	</script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/logo.jpg" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname"></span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="bluetext"><a href="index.html" class="bluetext">Home</a> > <a href="29b589f319a6ff76ba10fc6f4f81e36422af8f0a312164993ddb3f1d6b3b5c9f.html">Test sip valid date </a> > Screenshots </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div class="menu">
+    <ul>
+        <li><a href="index.html" class="current">Overall Test Results</a></li>
+        <li><a href="capabilities.html" >Requirements</a></li>
+    </ul>
+    <span class="date-and-time">Report generated 15-08-2015 13:07</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+    <div id="contentbody">
+        <div class="titlebar">
+        <div class="story-title">
+            <table width="1005">
+                <td width="50"><img class="story-outcome-icon" src="images/cross.png" width="25" height="25"/> </td>
+                <td width="%"><span class="test-case-title"><span
+                        class="error-color">Test sip valid date<span class="related-issue-title"></span></span></span>
+                </td>
+                <td width="100"><span class="test-case-duration"><span class="greentext">44,33s</span></span>
+                </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <a class="tagLink" href="599ebcd013bcd6a5bf729c476c8f9f296ea41adf816e2cf22b584e9675155bec.html">Sip - Valid Date (tag)</a>
+                        <a class="tagLink" href="1a6c4622dbb8cc5fe9da5ec80e43a371e377abdbb83c63bd0c7329609a9a01bb.html">Server (story)</a>
+                        <a class="tagLink" href="09e1d8024857619e445b662bd89e27866795d959e427bee300587ceea6133e5c.html">Test Auth (feature)</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+
+	 <div class="slider-wrapper theme-default">
+		<div id="slider">
+                <img src="27750c91030a6a25cd0a297dd896ec22_NONE.png" alt="" title="Start browser" width="1040"/>
+                <img src="e2dd598577f4502efbc84e8ddc8a4df0_NONE.png" alt="" title="Кликул на сслыку 'Sip шлюз'" width="1366"/>
+                <img src="99646c4de5b09b55d518a0334aa2dfea_NONE.png" alt="" title="Кликул на сслыку 'Sip шлюз'" width="1366"/>
+                <img src="fda92460f27921cb73e1eb4e3f3b9045_NONE.png" alt="" title="Ввел сервер VoIP " width="1366"/>
+                <img src="b2e87c2b80133d639a156a5ed1fd3c38_NONE.png" alt="" title="Ввел сервер VoIP " width="1366"/>
+                <img src="533b0728b3220f7bfa95e5ab6274a747_NONE.png" alt="" title="Ввел  'Логин'" width="1366"/>
+                <img src="dc390560a9a2adc20581775a7193184b_NONE.png" alt="" title="Ввел  'Логин'" width="1366"/>
+                <img src="b7e9fee8bcd5faf7c2570a2d53bf7577_NONE.png" alt="" title="Ввел 'Пароль' " width="1366"/>
+                <img src="17205be8fdc9a34e79cbe24be3ee3787_NONE.png" alt="" title="Выбрал  регистрацию" width="1366"/>
+                <img src="f5c297f80ed563779517e23d8ace9aa1_NONE.png" alt="" title="Кликнул 'Сохранить'" width="1366"/>
+                <img src="0831b210404a275f6e7b1f964013b4ff_NONE.png" alt="stale element reference: element is not attached to the page document" title="&lt;strong&gt;Ожидаемый результат - 'валидные данные'&lt;/strong&gt;" width="1366"/>
+                <img src="6fcfacb3185d718d0bc6d9aa42bab140_NONE.png" alt="stale element reference: element is not attached to the page document" title="&lt;strong&gt;Ожидаемый результат - 'валидные данные'&lt;/strong&gt;" width="1366"/>
+        </div>
+	  </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Thucydides version 0.9.275 - Build UNKNOWN</span>
+</div>
+</body>
+</html>

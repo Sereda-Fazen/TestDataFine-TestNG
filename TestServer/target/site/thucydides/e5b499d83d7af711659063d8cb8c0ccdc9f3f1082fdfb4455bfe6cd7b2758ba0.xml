@@ -1,0 +1,139 @@
+<acceptance-test-run title="Test settings" name="TestSettings" steps="17" successful="17" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="47245" timestamp="2015-08-15T13:09:13.864+03:00">
+  <user-story id="utils.Application.TestAuth.Server" name="Server" path="utils.Application.TestAuth">
+    <feature id="utils.Application.TestAuth" name="Test auth"/>
+  </user-story>
+  <tags>
+    <tag name="Test auth" type="feature"/>
+    <tag name="Server" type="story"/>
+    <tag name="Settings" type="tag"/>
+  </tags>
+  <test-step result="SUCCESS" duration="11187">
+    <screenshots>
+      <screenshot image="27750c91030a6a25cd0a297dd896ec22_NONE.png"/>
+    </screenshots>
+    <description>Start browser</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="3890">
+    <screenshots>
+      <screenshot image="e2dd598577f4502efbc84e8ddc8a4df0_NONE.png"/>
+      <screenshot image="351bdb93230d0c65f95663b495b362f9_NONE.png"/>
+    </screenshots>
+    <description>Клик на ссылку - &lt;strong&gt;Настройки&lt;/strong&gt;</description>
+  </test-step>
+  <test-group name="Выбор пути для папки" result="SUCCESS">
+    <screenshots>
+      <screenshot image="c8303ddf5df91b05162b35eeef65e6f3_NONE.png"/>
+      <screenshot image="71a965910757d401f78ed03bbbaad8b7_NONE.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="454">
+      <screenshots>
+        <screenshot image="c8303ddf5df91b05162b35eeef65e6f3_NONE.png"/>
+      </screenshots>
+      <description>Клик на путь</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="487">
+      <screenshots>
+        <screenshot image="c8303ddf5df91b05162b35eeef65e6f3_NONE.png"/>
+      </screenshots>
+      <description>Выбор папки</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="10017">
+      <screenshots>
+        <screenshot image="c8303ddf5df91b05162b35eeef65e6f3_NONE.png"/>
+        <screenshot image="b85edd7a5ea2e8dcf405e336c0d8d0b3_NONE.png"/>
+      </screenshots>
+      <description>Применить</description>
+    </test-step>
+  </test-group>
+  <test-group name="Отчеты " result="SUCCESS">
+    <screenshots>
+      <screenshot image="e7323134a2f2dba850d2ea30add46c21_NONE.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="452">
+      <screenshots>
+        <screenshot image="ded97072ecf017afb722f262c30399a2_NONE.png"/>
+      </screenshots>
+      <description>Клик чекбокс</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="463">
+      <screenshots>
+        <screenshot image="ded97072ecf017afb722f262c30399a2_NONE.png"/>
+        <screenshot image="31eda892230bd1e0776863d54e905f10_NONE.png"/>
+      </screenshots>
+      <description>Просмотр журнала</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="3432">
+      <screenshots>
+        <screenshot image="9e3f8be8070a7cac9e20834640c22d56_NONE.png"/>
+        <screenshot image="20d144a30551f270b574af8b300030fd_NONE.png"/>
+      </screenshots>
+      <description>Отчет использования</description>
+    </test-step>
+  </test-group>
+  <test-step result="SUCCESS" duration="2775">
+    <screenshots>
+      <screenshot image="20d144a30551f270b574af8b300030fd_NONE.png"/>
+      <screenshot image="03b6d5d113b2478e117d3c750bb8a5f2_NONE.png"/>
+    </screenshots>
+    <description>Конфигурации</description>
+  </test-step>
+  <test-group name="Приложения" result="SUCCESS">
+    <screenshots>
+      <screenshot image="4a271a8c35c0723d826363cf49f41ac1_NONE.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="521">
+      <screenshots>
+        <screenshot image="03b6d5d113b2478e117d3c750bb8a5f2_NONE.png"/>
+      </screenshots>
+      <description>Клик TrueConf для Windows</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="3453">
+      <screenshots>
+        <screenshot image="4492dd7116eb2ee24e8be3de9414095f_NONE.png"/>
+      </screenshots>
+      <description>Клик TrueConf для MacOS</description>
+    </test-step>
+  </test-group>
+  <test-group name="Настройки приложения" result="SUCCESS">
+    <screenshots>
+      <screenshot image="4a271a8c35c0723d826363cf49f41ac1_NONE.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="549">
+      <screenshots>
+        <screenshot image="4a271a8c35c0723d826363cf49f41ac1_NONE.png"/>
+      </screenshots>
+      <description>Ввод ключа для гостевых соединений</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="519">
+      <screenshots>
+        <screenshot image="4a271a8c35c0723d826363cf49f41ac1_NONE.png"/>
+      </screenshots>
+      <description>Выбор ограничение битрейта пользователя</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="524">
+      <screenshots>
+        <screenshot image="4a271a8c35c0723d826363cf49f41ac1_NONE.png"/>
+      </screenshots>
+      <description>Выбор FPS пользователя</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="2750">
+      <screenshots>
+        <screenshot image="e5b6b93874b1864750d567d24ed39b90_NONE.png"/>
+      </screenshots>
+      <description>Выбор ограничение размера кадра в пикселях</description>
+    </test-step>
+  </test-group>
+  <test-step result="SUCCESS" duration="963">
+    <screenshots>
+      <screenshot image="e5b6b93874b1864750d567d24ed39b90_NONE.png"/>
+      <screenshot image="0c8f36b4aaaf50c3cbd67fc0226f1f31_NONE.png"/>
+    </screenshots>
+    <description>Клик &apos;Сохранить&apos;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="481">
+    <screenshots>
+      <screenshot image="41c81725e51ea114eab9cbe970355df6_NONE.png"/>
+    </screenshots>
+    <description>Ожидаемый результат - &lt;strong&gt;Настройки сохранены&lt;/strong&gt;</description>
+  </test-step>
+</acceptance-test-run>
